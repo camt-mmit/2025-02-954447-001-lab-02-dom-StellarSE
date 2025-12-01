@@ -5,7 +5,7 @@
  *
  * @returns {HTMLElement}
  */
-function createInputListComponent(componentElem) {
+export function createInputListComponent(componentElem) {
   const templateElem = componentElem.querySelector('.app-tmp-number-component');
 
   if (templateElem === null) {
